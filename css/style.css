@@ -1,0 +1,48 @@
+body
+{
+  background-image:url("../img/wood.jpg");
+    font-family: 'Permanent Marker', cursive;
+}
+#date_ajout
+{
+    font-size: 18px;
+    color: #DB0B32;
+    text-align:center;
+}
+#pseudo
+{
+    font-size: 20px;
+    color: #DB0B32;
+    text-align:center;
+}
+#message
+{
+    border-radius: 80%;
+    background: #ebebe0;
+    font-size: 20px;
+    color: #3333FF;
+    text-align:center;
+}
+#titre_1, label
+{
+    font-size: large;
+    text-align:center;
+    color: #E70739;
+}
+.container-fluid
+{
+    padding: 0;
+    margin: 0;
+}
+input.form-control , textarea.form-control
+{
+    font-size: medium;
+}
+.btn-primary
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
