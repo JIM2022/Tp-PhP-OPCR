@@ -41,8 +41,8 @@
 			<div class="col-3">
                 <?php while ($donnees = $reponse->fetch()) { ?>
 					<h4 id="date_ajout"><?php echo $donnees["date_fr"]; ?></h4>
-					<h4 id="pseudo"><?php echo $donnees['pseudo']; ?></h4>
-					<p id="message"><?php echo $donnees['message']; ?></p>
+					<h4 id="pseudo"><?php echo htmlspecialchars($donnees['pseudo']); ?></h4>
+					<p id="message"><?php echo htmlspecialchars($donnees['message']); ?></p>
 					<?php }
 					$reponse->closeCursor();?>
 			</div>

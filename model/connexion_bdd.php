@@ -1,6 +1,6 @@
 <?php
 	try {
-		$bdd = new PDO('mysql:host=localhost:8889;dbname=Minichat', '', '');
+		$bdd = new PDO('mysql:host=localhost:8889;dbname=Minichat', 'root', 'root');
 	}
 	    catch (PDOException $e){
 		    echo "Echec de connexion:" . $e->getMessage();
